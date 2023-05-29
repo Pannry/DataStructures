@@ -1,14 +1,14 @@
-import Queue from '../src/Queue.mjs';
+import Queue from "../src/Queue.mjs";
 let queue = new Queue();
 
 console.log(queue.isEmpty());
 
-queue.enqueue('Jonh');
-queue.enqueue('Jack');
+queue.enqueue("Jonh");
+queue.enqueue("Jack");
 
 console.log(queue.toString());
 
-queue.enqueue('Cammila');
+queue.enqueue("Cammila");
 
 console.log(queue.toString());
 

@@ -1,4 +1,4 @@
-import LinkedList from '../src/Lists/LinkedList.mjs';
+import LinkedList from "../src/Lists/LinkedList.mjs";
 let ll = new LinkedList();
 
 console.log(ll.toString());
